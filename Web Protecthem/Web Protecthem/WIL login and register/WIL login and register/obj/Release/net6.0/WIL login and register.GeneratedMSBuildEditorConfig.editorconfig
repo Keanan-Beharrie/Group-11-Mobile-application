@@ -1,0 +1,112 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WIL_login_and_register
+build_property.RootNamespace = WIL_login_and_register
+build_property.ProjectDir = C:\Users\User\Downloads\Web Protecthem (Updated) (1)\Web Protecthem\WIL login and register\WIL login and register\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\User\Downloads\Web Protecthem (Updated) (1)\Web Protecthem\WIL login and register\WIL login and register
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/User/Downloads/Web Protecthem (Updated) (1)/Web Protecthem/WIL login and register/WIL login and register/Views/Contact/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/Web Protecthem (Updated) (1)/Web Protecthem/WIL login and register/WIL login and register/Views/Contact/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/Web Protecthem (Updated) (1)/Web Protecthem/WIL login and register/WIL login and register/Views/Contact/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/Web Protecthem (Updated) (1)/Web Protecthem/WIL login and register/WIL login and register/Views/Contact/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/Web Protecthem (Updated) (1)/Web Protecthem/WIL login and register/WIL login and register/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/Web Protecthem (Updated) (1)/Web Protecthem/WIL login and register/WIL login and register/Views/Evidence/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZpZGVuY2VcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/Web Protecthem (Updated) (1)/Web Protecthem/WIL login and register/WIL login and register/Views/Evidence/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZpZGVuY2VcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/Web Protecthem (Updated) (1)/Web Protecthem/WIL login and register/WIL login and register/Views/Evidence/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZpZGVuY2VcRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/Web Protecthem (Updated) (1)/Web Protecthem/WIL login and register/WIL login and register/Views/Evidence/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZpZGVuY2VcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/Web Protecthem (Updated) (1)/Web Protecthem/WIL login and register/WIL login and register/Views/Evidence/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZpZGVuY2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/Web Protecthem (Updated) (1)/Web Protecthem/WIL login and register/WIL login and register/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/Web Protecthem (Updated) (1)/Web Protecthem/WIL login and register/WIL login and register/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/Web Protecthem (Updated) (1)/Web Protecthem/WIL login and register/WIL login and register/Views/Home/Registration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3RyYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/Web Protecthem (Updated) (1)/Web Protecthem/WIL login and register/WIL login and register/Views/Home/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWduSW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/Web Protecthem (Updated) (1)/Web Protecthem/WIL login and register/WIL login and register/Views/Journal/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm91cm5hbFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/Web Protecthem (Updated) (1)/Web Protecthem/WIL login and register/WIL login and register/Views/Journal/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm91cm5hbFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/Web Protecthem (Updated) (1)/Web Protecthem/WIL login and register/WIL login and register/Views/Journal/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm91cm5hbFxEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/Web Protecthem (Updated) (1)/Web Protecthem/WIL login and register/WIL login and register/Views/Journal/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm91cm5hbFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/Web Protecthem (Updated) (1)/Web Protecthem/WIL login and register/WIL login and register/Views/Journal/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm91cm5hbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/Web Protecthem (Updated) (1)/Web Protecthem/WIL login and register/WIL login and register/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/Web Protecthem (Updated) (1)/Web Protecthem/WIL login and register/WIL login and register/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/Web Protecthem (Updated) (1)/Web Protecthem/WIL login and register/WIL login and register/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/Web Protecthem (Updated) (1)/Web Protecthem/WIL login and register/WIL login and register/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Downloads/Web Protecthem (Updated) (1)/Web Protecthem/WIL login and register/WIL login and register/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-3shnc8rvgk

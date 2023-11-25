@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="ConnectMVCToDB20230525090422" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\User\\Downloads\\Web\ Protecthem\ \(Updated\)\ \(1\)\\Web\ Protecthem\\WIL\ login\ and\ register\\WIL\ login\ and\ register\\obj\\Release\\net6\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

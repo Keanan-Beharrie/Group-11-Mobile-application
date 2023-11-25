@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "35561576931",
+    "project_id": "protecthemapp",
+    "storage_bucket": "protecthemapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35561576931:android:a38f3024bdf7a3b240a8d6",
+        "android_client_info": {
+          "package_name": "com.example.protecthemapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALP3xFwFjcuimKZEHDA0-B1ABnLyJ82AM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WIL login and register", "WIL login and register.csproj", "{04C3778A-4D22-4090-89EF-393F06ED29A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04C3778A-4D22-4090-89EF-393F06ED29A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04C3778A-4D22-4090-89EF-393F06ED29A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04C3778A-4D22-4090-89EF-393F06ED29A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04C3778A-4D22-4090-89EF-393F06ED29A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D210AAE-45A7-4422-814E-6A7ABF781F27}
+	EndGlobalSection
+EndGlobal

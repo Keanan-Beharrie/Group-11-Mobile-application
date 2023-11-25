@@ -1,0 +1,170 @@
+<resources>
+    <string name="app_name">Protecthem</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="enter_your_email">Enter Your Email .....</string>
+    <string name="enter_your_pass">Enter Your Password .....</string>
+    <string name="re_enter_your_pass">Re-enter Your Password .....</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="already_registered">Already Registered !!</string>
+    <string name="not_registered">Not Registered Yet !!</string>
+
+    <string-array name="sort_types">
+        <item>SORT BY DATE</item>
+        <item>SORT BY NAME</item>
+        <item>SORT BY RARITY</item>
+        <item>SORT BY NOTES</item>
+        <item>SORT BY DATE</item>
+    </string-array>
+    <string name="title_activity_maps">Current Location</string>
+
+    <string name="normal_map">Normal Map</string>
+    <string name="hybrid_map">Hybrid Map</string>
+    <string name="satellite_map">Satellite Map</string>
+    <string name="terrain_map">Terrain Map</string>
+
+    <string name="location_permission_not_granted">Location Permission not granted</string>
+
+    <string name="drawer_location">Check Location</string>
+    <string name="drawer_guardian">Guardian Details</string>
+    <string name="drawer_logout">Logout</string>
+
+    <string name="problem">Help! I\'m in danger. My current location: \n</string>
+    <string name="enter_email_id">Enter Email ID</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_relation">Enter Relation</string>
+    <string name="enter_phone_no">Enter Phone No</string>
+    <string name="submit">Save</string>
+    <string name="todo">TODO</string>
+    <string name="guardian_details">Guardian Details</string>
+    <string name="location">Location</string>
+    <string name="check_location">Check Location</string>
+    <string name="help">Help</string>
+    <string name="add_guardian">Add Guardian</string>
+    <string name="women_safety_app">Women Safety App</string>
+
+    <string name="cleared_message">All your data is gone forever.</string>
+
+    <string name="my_map_api_key">AIzaSyDpx2u8q9f6mqVPiFJXVgb_7aW38rmInyw</string>
+
+    <string name="Abortion_and_care_services">
+
+    Understand abortion:
+    What the law says, how it works, and how we can help.Download the PDF guide:</string>
+    <string name="Survive_gbv">
+
+    To help survivors of sexual violence and their loved ones understand their rights.
+    Download the PDF guide:</string>
+    <string name="Male_sexual_assault">
+
+    Male sexual assault victims often feel unable to seek help because of society.
+    Download the PDF guide:</string>
+    <string name="Sexual_consent">
+
+    Sexual consent is an agreement by both people to take part in sexual activity.
+    Download the PDF guide:</string>
+    <string name="Sexual_harassment">
+
+    Sexual harassment is unwanted sexual behaviour, and is never acceptable by any means.
+    Download the PDF guide:</string>
+    <string name="Grooming">
+
+    Grooming is when someone builds a relationship and trust just for manipulation.
+    Download the PDF guide:</string>
+    <string name="Coercion">
+
+    Sexual coercion is when someone uses pressure to have unwanted sexual contact.
+    Download the PDF guide:</string>
+    <string name="Rape">
+
+    Rape culture is when GBV is common and normalised, and is excused by society.
+    Download the PDF guide:</string>
+    <string name="Staying_safe">
+
+    How can you tell if your drink has been spiked by someone when out and about?
+    Download the PDF guide:</string>
+    <string name="Settings">
+
+    WHO ARE WE?
+This platform was built to make a difference in the lives of abused survivors. Our team has a wealth of experience working with survivors, communities, and the criminal justice system.
+    </string>
+    <string name="Email">
+
+  EMAIL US.
+info@protecthem.org </string>
+
+
+    <string name="Intro">Welcome to ProtectThem</string>
+    <string name="Desc"> We take pride in empowering victims of violence against humanity to swiftly and efficiently seek assistance in their healing process. Our platform enables them to gather admissible evidence against their assailants, facilitating prompt access to the support they require to move forward.</string>
+    <string name="Purpose">ProtectThem is authorized to take the-hand approach and create an online presence to provide individuals and those facing violence against humanity a way to get help fast and guide them through the process of laying a charge getting a conviction, providing information on protection methods and provide people with safety methods. The core goal is to enable victims of violence against humanity to access help fast and to ensure the collection of admissible evidence. The program will allow people to collaborate with support groups, counselling, and crisis management.</string>
+
+    <string name="Howto">An abusive relationship is any relationship that involves physical, sexual, or emotional abuse and control. So, abusive relationships are not just limited to physical abuse. Any relationship that makes you feel insecure, unhappy, frightened, and drained is a toxic, abusive relationship.A toxic bond in an abusive relationship can cause you to doubt your reality and sanity and lose a sense of self-respect. In addition, a relationship with an abusive partner can isolate you, cutting you off from your support circles and generating significant emotional distress. At some point, the abusive relationship may pose an imminent threat to your health and life.</string>
+    <string name="Bombing">> Love Bombing: Abusive relationships often begin like any other relationship. In the beginning, the abuser may profess endless love for you. They may use a manipulation strategy known as love bombing. This behaviour is often linked to narcissism. A narcissist will shower you with attention, love, and admiration to indebt you. They may seem deep in love with you, putting you on their love pedestal only to manipulate you into a belief that you owe them something so that they can gain power over you.
+    > Narcissistic Rage: Love bombing will soon be switched by anger and rage. When the abuser is in this state, they may react with either explosive (screaming, explosive outbursts) or passive rage (passive aggression, hidden resentment, neglect, etc.). However, rage is almost always disproportionate to the trigger.
+    > Toxic Attention Demands: Victims in abusive relationships give a lot and receive very little or nothing in return. The abusive partner will demand that you put aside your needs and tend to their needs. Yet, no matter how much you give, it is never enough. The abuser will criticize you for not trying hard enough, humiliating, threatening, or abusing you for “not doing enough.”
+    > No Boundaries: You cannot say “no” to your toxic partner’s request either because you don’t want to disappoint them, fear they might leave you, or feel threatened and frightened.
+    > A Toxic Level of Control and Guilt: You are constantly judged, manipulated, and controlled. Your partner tells you what to do and what not to, restricts contact with your friends and family, puts you down, and threatens you. Their behaviour is unpredictable – the abuser may act differently at different times in similar situations. No one deserves to be stuck in this kind of hurt and you don’t have to suffer through this alone. You may constantly feel guilty, believing that you are responsible for your partner’s feelings and behaviours.</string>
+
+    <string name="plan">> Create a safety plan: Establishing safety is important. A safety plan can help you outline actionable steps to reduce risk of harm or danger during the breakup process.
+    > Build a safety network: To avoid going back to an abusive relationship, surround yourself with a support network of friends and loved ones who are in the loop on why you left,
+    > Work toward becoming independent: The Centres for Disease Control and Prevention (CDC)Trusted Source suggests that increased financial and housing security can reduce risk of intimate partner violence. Especially if you used to rely on your partner for shelter and finances, finding a safe space to live and a job can jumpstart your path to independence. “Establish financial independence, including your own source of income, savings, and credit,”
+    > Talk to a Professional: Seek coaching or therapy to address your emotional wounds and start healing. Also, contact a local victims advocate to help you with an escape plan and guide you through the process.
+    > Give Yourself Permission to Leave: Abusers use various manipulation strategies to control their victims. For example, you may feel disoriented, insecure, and guilty because the abuser will manipulate you into believing that the abuse is your fault. Remember that you are not to blame for being harmed and abused. You were never the cause of your partner’s abusive behaviour, and, like everyone else, you deserve safety, protection, and happiness. You deserve to be treated with respect, care, and love. Although you may feel isolated, abandoned, and horrified, know that you are not alone. There are people who can help you heal and feel safe again.</string>
+
+    <string name="Hotlines">> Hotlines: Reach out to your local domestic violence hotline and get connected to more information about domestic violence as well as gaining assistance in creating a safety plan.
+    > Support groups and organizations: Getting involved in support groups, joining organizations, and connecting with other survivors can offer you comfort and support during this time. Many people who find and become involved in One Love because of an unhealthy or abusive relationship report a sense of relief in seeing their situations depicted in our content, strength in educating others, or support in joining our community of volunteers, student leaders, educators, advocates, and staff. Legal advocates can also provide education and support in terms of restraining orders and possibly provide legal referrals.
+    > Therapy: Keep in mind that couples counselling doesn’t work in abusive relationships. But individual therapy can help you strengthen your relationships, set boundaries, and better understand the dynamics of domestic violence, says Black. A mental health professional can also teach you coping strategies and tips for building healthier relationships. “It’s important to educate yourself about the common patterns of abuse and the types of abusive behaviours you may have experienced in order to break the cycle of violence,” she says. “Knowledge is power.”</string>
+
+    <string name="support">> Create a support system: Your abuser may have isolated you from friends, family, and other sources of support. While you can’t change what happened in the past, you can work to rebuild relationships or make new connections. Not only can a strong support system reduce the risk of depression, but positive relationships with others can help you to learn to trust again.
+    > Remember that it’s not your fault: While it’s normal to blame yourself for the emotional abuse that you’ve experienced, you should remember that none of it is your fault. Emotional abusers might try to make you believe that you deserve mistreatment, but that’s never true. Your emotional abuser is the one responsible for their actions, not you.
+    > Document your feelings: People often struggle with feelings of self-doubt while healing after emotional abuse. As time goes on, you may start to question if the abuse you experienced was actually that bad. Keeping a journal can help you track your feelings and experiences, which might allow you to learn to trust yourself (and others) again.
+    > Focus on your own needs: In your toxic relationship, you may have learned to neglect your own wants and needs so you could focus on what your emotional abuser wanted. While there’s nothing wrong with trying to make other people happy, be aware if you have developed a pattern of always putting someone else first. Take the time to think about your desires and goals and work to get back in touch with your emotions.
+    > Start therapy: Healing after emotional abuse can be a long and difficult process. When you seek professional help, through online therapy, you’ll have access to the support that you need. Therapy can help you process your emotional trauma, develop healthy coping strategies, and stay strong as you begin to rebuild your life.</string>
+
+    <string name="note">> Calmly start a conversation on a positive note: Make time to have a quiet conversation with your pal. Begin by offering your buddy encouraging words and compliments, such as, once your friend feels at ease, you can start speaking calmly about your worries for them. You will need to be a reliable support who they can openly and peacefully communicate with because its possible that they feel like their life is already chaotic enough. This will enable you to best assist them. They are probably going to keep asking for help if you dont freak out and try to make them feel secure. You dont want to concern your friend, start a fight with them, or assign blame to them.
+    > Be supportive: Listen to your friend and let them open up about the situation on their own terms. Don’t be forceful with the conversation. It may be very hard for your friend to talk about their relationship but remind them that they are not alone and that you want to help.
+    > Focus on the unhealthy behaviours: The dialogue should centre on the harmful patterns of behaviour in the partnership in order to give your friend a secure setting in which to discuss them. Sometimes our first reaction is to immediately classify the relationship as "abusive" to emphasise how serious the situation is. You can also be honest about how you would feel if someone did something to you and gently point out that some behaviours look unhealthy. One of the first stages is to explain to your friend what appropriate and inappropriate behaviour in a relationship look like. As you recognise their sentiments as being valid, you might assist them in realising for themselves that something is odd about the connection.
+    > Allow your friend to make their own decision: If your friend is in an abusive relationship, the last thing you want to do is tell them to “just break up!” Relationship abuse is very complex, and your friend may be experiencing some form of trauma bonding—or loyalty to the person who is abusing them. Also, your friend is already dealing with a controlling and manipulative partner and the last thing that they need is for you to mimic those behaviours by forcefully telling them what to do.
+    > Offer solutions to your friend: The best way for you to help your friend is to offer them options. Don’t push any one of them in particular, but instead let your friend know that you will support them no matter what they decide to do. Reassure your friend that they are the expert in their own life and make them feel as though they are in control of the situation.</string>
+
+    <string name="Physical">> Physical abuse is one of the most easily identified types of abuse. It involves the use of physical violence, or threats of it, to maintain power over an individual. Because of this, survivors are afraid and uncertain when more abuse will occur.
+    > Emotional abuse includes non-physical behaviours that are meant to control, isolate, or frighten someone.
+    > Sexual abuse is when a partner controls the physical and sexual intimacy in a relationship.
+    > Financial or economic abuse occurs when an abusive partner extends their power and control into your financial situation.
+    > Digital abuse is the use of technology and the Internet to bully, harass, stalk, intimidate, or control a partner.</string>
+
+    <string name="People">People Opposed to Woman Abuse (Powa)</string>
+    <string name="PeopleN">Tel: 011 642 4345 </string>
+    <string name="Families">Families South Africa (Famsa)</string>
+    <string name="FamiliesN">Tel: 011 975 7106/7 </string>
+    <string name="Tears">Tears Foundation</string>
+    <string name="TearsN">Tel: 010 590 5920 </string>
+    <string name="Trauma">The Trauma Centre	</string>
+    <string name="TraumaN">Tel: 021 465 7373 </string>
+    <string name="Elder">Halt Elder Abuse Line (Heal)</string>
+    <string name="ElderN">Tel: 080 000 3081 </string>
+    <string name="Trafficking">Human Trafficking</string>
+    <string name="TraffickingN">Tel: 082 455 3664 </string>
+    <string name="Mental">South African Federation for Mental Health</string>
+    <string name="MentalN">Tel: 011 781 1852 </string>
+    <string name="Police">South African Police Service</string>
+    <string name="PoliceN">Tel: 10111 </string>
+    <string name="Childline">Childline South Africa	</string>
+    <string name="ChildlineN">Tel: 116 </string>
+
+
+    <string name="website1">Tears Foundation</string>
+    <string name="link1"><a href="http://www.tears.co.za">http://www.tears.co.za</a></string>
+    <string name="website2">The Trauma Centre</string>
+    <string name="link2"><a href="http://www.tears.co.za">http://www.trauma.org.za </a></string>
+    <string name="website3">Thuthuzela Care Centres</string>
+    <string name="link3"><a href="http://www.tears.co.za">http://www.soulcity.org.za </a></string>
+    <string name="website4">Child Welfare South Africa</string>
+    <string name="link4"><a href="http://www.tears.co.za">http://childwelfaresa.org.za </a></string>
+
+
+
+
+</resources>

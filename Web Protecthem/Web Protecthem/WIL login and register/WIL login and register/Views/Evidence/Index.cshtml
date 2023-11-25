@@ -1,0 +1,103 @@
+﻿@model IEnumerable<WIL_login_and_register.Models.Evidence>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-blue border-bottom box-shadow mb-3">
+        <div class="container-fluid">
+            <a class="navbar-brand text-dark" asp-area="" asp-controller="Home" asp-action="Index">ProtectThem</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse collapse d-sm-inline-flex d-flex justify-content-end">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Evidence" asp-action="Index">Evidence</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Journal" asp-action="Index">Journal</a>
+                    </li>
+                    <!-- New Contact List Link -->
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Contact" asp-action="Index">Contact List</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="SignIn">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<br />
+
+<h2>View Evidence</h2>
+<br />
+
+<p>
+    @Html.ActionLink("Create New", "Create", routeValues: new { }, htmlAttributes: new { @class = "modal-link btn btn-default" })
+</p>
+<table class="table" id="customers">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateAndTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            Image
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @item.DateAndTime.ToString("yyyy-MM-dd HH:mm")
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @if (!String.IsNullOrEmpty(item.ImageUrl)) // Ensure 'ImageUrl' matches the property name in the model
+                {
+                    <img src="@item.ImageUrl" alt="Evidence Image" style="width: 100px; height: 100px;" />
+                }
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.ID } , new { @class = "btn btn-warning btn-sm" })  |
+                @Html.ActionLink("Delete", "Delete", new { id = item.ID }, new { @class = "btn btn-danger btn-sm" })
+            </td>
+        </tr>
+    }
+</table>
+<br />
+<br />
+
+<br />
+<br />
+<br />
+
+<br />
+<br />
+<br />

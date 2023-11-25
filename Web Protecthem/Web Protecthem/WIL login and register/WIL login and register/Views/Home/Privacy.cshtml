@@ -1,0 +1,767 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<br />
+<header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-blue border-bottom box-shadow mb-3">
+        <div class="container-fluid">
+            <a class="navbar-brand text-dark" asp-area="" asp-controller="Home" asp-action="Index">ProtectThem</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse collapse d-sm-inline-flex d-flex justify-content-end">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Evidence" asp-action="Index">Evidence</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Journal" asp-action="Index">Journal</a>
+                    </li>
+                    <!-- New Contact List Link -->
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Contact" asp-action="Index">Contact List</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="SignIn">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div class="jumbotron">
+    <div class="container-fluid">
+        <div class="header-content-inner">
+            <br /><br />
+            <br /><br />
+            <br /><br />
+            <br /><br />
+            <br /><br />
+            <br /><br />
+            <br /><br />
+            <br /><br />
+            <br /><br />
+            <br /><br />
+            <h1>Welcome to ProtectThem</h1>
+            <h3>
+                We are proud to enable victims of violence against humanity to access help fast and efficient way heal by allowing them to collect admissible evidence agents their assault and get the help they need to move on.
+            </h3>
+        </div>
+    </div>
+</div>
+
+
+<section class="bg-about bg-section" id="about">
+    <div class="container-fluid">
+        <h1 class="container-h1">Our Mission</h1>
+        <div class="row">
+            <div class="col-sm-5">
+
+                <div class="hov-img">
+                    <img src="~/css/img4.png" alt="Warm welcome" class="hov-img-bottom img-fluid">
+                    <div class="hov-img-top hov-img-slideup">
+                        <div class="hov-img-text">
+                            <h5>Warm welcome</h5>
+                            <p>
+                                “do not look for healing
+                                at the feet of those
+                                who broke you”<br />
+                                ― Rupi Kaur
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hov-img">
+                    <div class="hov-img-top hov-img-slideup">
+                        <div class="hov-img-text">
+                            <h5>Delicious meals</h5>
+                            <p>
+                                In about 1765 a new kind of eating establishment, called a
+                                "Bouillon", was opened on rue des Poulies, near the Louvre, by a man named Boulanger.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hov-img">
+                    <div class="hov-img-top hov-img-slideup">
+                        <div class="hov-img-text">
+                            <h5>Professional staff</h5>
+                            <p>
+                                For centuries Paris had taverns which served food at large
+                                common tables, but they were notoriously crowded, noisy, not very clean, and served food of dubious quality.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-sm-7">
+                <div class="row ">
+                    <div class="restaurant-history slideanim text-center">
+                        <h3 class="section-heading">Discover Our Purpose</h3>
+
+                        <p class="about-history first">
+                            ProtectThem is authorized to take the-hand approach and create an online presence to provide individuals and
+                            those facing violence against humanity a way to get help fast and guide them through the process of laying a charge,
+                            getting a conviction, providing information on protection methods and provide people with safety methods. The core goal is to enable victims of violence against humanity to access help fast and to ensure the collection of
+                            admissible evidence. The program will allow people to collaborate with support groups, counselling, and crisis management.
+                        </p>
+
+                        <button type="button" class="btn more" id="more" data-toggle="collapse" data-target="#demo">More</button>
+                        <div id="demo" class="collapse">
+                            <p class="about-history">
+                                The main objectives are to ensure that admissible evidence is gathered and to make it possible for victims of crime against humanity
+                                to quickly obtain assistance. People will be able to work together with support groups, counselling, and crisis management thanks to the program.
+
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="bg-menu bg-section" id="menu">
+    <div class="container-fluid">
+        <h1 class="container-h1">Advice Column</h1>
+        <div class="row">
+
+            <!-- Nav pills -->
+            <ul class="nav nav-pills" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="pill" href="#breakfast">Warning Signs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#lunch">How to leave?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#dinner">Support</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#dessert">Healing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#salads">Help A Friend </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#drinks">Types of Abuse</a>
+                </li>
+            </ul>
+
+
+            <!-- Tab panes -->
+            <div class="tab-content slideanim">
+                <div id="breakfast" class="tab-pane fade show active">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <h4 class="list-group-item-heading">Love Bombing.<span class="badge pull-right"></span></h4>
+                                    <p class="list-group-item-text">
+                                        Abusive relationships often begin like any other relationship.
+                                        In the beginning, the abuser may profess endless love for you. They may use a manipulation strategy known as love bombing.
+                                        This behavior is often linked to narcissism. A narcissist will shower you with attention,
+                                        love, and admiration to indebt you. They may seem deep in love with you, putting you on their
+                                        love pedestal only to manipulate you into a belief that you owe them something so that they can gain
+                                        power over you.
+                                    </p>
+                                </li>
+                                <li class="list-group-item">
+                                    <h4 class="list-group-item-heading">Narcissistic Rage.<span class="badge pull-right"></span></h4>
+                                    <p class="list-group-item-text">
+                                        Love bombing will soon be switched by anger and rage.
+                                        When the abuser is in this state, they may react with either explosive (screaming, explosive outbursts)
+                                        or passive rage (passive aggression, hidden resentment, neglect, etc.). However, rage is almost always
+                                        disproportionate to the trigger.
+                                    </p>
+
+                                </li>
+                                <li class="list-group-item">
+                                    <h4 class="list-group-item-heading">Toxic Attention Demands.<span class="badge pull-right"></span></h4>
+                                    <p class="list-group-item-text">
+                                        Victims in abusive relationships give a lot and receive very little or
+                                        nothing in return. The abusive partner will demand that you put aside your needs and tend to their needs.
+                                        Yet, no matter how much you give, it is never enough. The abuser will criticize you for not trying hard enough,
+                                        humiliating, threatening, or abusing you for “not doing enough.”
+                                    </p>
+                                </li>
+                                <li class="list-group-item">
+                                    <h4 class="list-group-item-heading">No Boundaries.<span class="badge pull-right"></span></h4>
+                                    <p class="list-group-item-text">
+                                        You cannot say “no” to your toxic partner’s request either because
+                                        you don’t want to disappoint them, fear they might leave you, or feel threatened and frightened.
+                                    </p>
+
+                                </li>
+                                <li class="list-group-item">
+                                    <h4 class="list-group-item-heading">A Toxic Level of Control and Guilt<span class="badge pull-right"></span></h4>
+                                    <p class="list-group-item-text">
+                                        You are constantly judged, manipulated, and controlled. Your partner tells you what to do and what not to, restricts contact with your friends and family, puts you down, and threatens you. Their behavior is unpredictable – the abuser may act differently at different times in similar situations.
+                                        No one deserves to be stuck in this kind of hurt and you don’t have to suffer through this alone. You may constantly feel guilty,
+                                        believing that you are responsible for your partner’s feelings and behaviors.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-5">
+                            <div class="right-cover">
+                                <h3>Warning Signs of an Abusive Relationship</h3>
+                                <img src="https://www.breakthecycle.org/sites/default/files/13_1.png" class="menu-img img-fluid" alt="breakfast-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="lunch" class="tab-pane fade">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <h4 class="list-group-item-heading">Create a safety plan<span class="badge pull-right"></span></h4>
+                                    <p class="list-group-item-text">
+                                        Establishing safety is important.
+                                        A safety plan can help you outline actionable steps to reduce risk of harm or danger during the breakup process.
+                                    </p>
+                                </li>
+                                <li class="list-group-item">
+                                    <h4 class="list-group-item-heading">Build a safety network<span class="badge pull-right"></span></h4>
+                                    <p class="list-group-item-text">
+                                        To avoid going back to an abusive relationship, surround yourself with a support network o
+                                        f friends and loved ones who are in the loop on why you left,
+                                    </p>
+                                </li>
+                                <li class="list-group-item">
+                                    <h4 class="list-group-item-heading">Work toward becoming independent<span class="badge pull-right"></span></h4>
+                                    <p class="list-group-item-text">
+                                        the Centers for Disease Control and Prevention (CDC)Trusted Source suggests that increased financial and housing security can reduce risk of intimate partner violence.
+                                        Especially if you used to rely on your partner for shelter and finances, finding a safe space to live
+                                        and a job can jumpstart your path to independence. “Establish financial independence, including your own
+                                        source of income, savings, and credit,”
+                                    </p>
+                                </li>
+                                <li class="list-group-item">
+                                    <h4 class="list-group-item-heading">Talk to a Professional <span class="badge pull-right"></span></h4>
+                                    <p class="list-group-item-text">
+                                        Seek coaching or therapy to address your emotional wounds and start healing.
+                                        Also, contact a local victims advocate to help you with an escape plan and guide you through the process.
+                                    </p>
+                                </li>
+                                <li class="list-group-item">
+                                    <h4 class="list-group-item-heading">Give Yourself Permission to Leave<span class="badge pull-right"></span></h4>
+                                    <p class="list-group-item-text">
+                                        Abusers use various manipulation strategies to control their victims.
+                                        For example, you may feel disoriented, insecure, and guilty because the abuser will manipulate you
+                                        into believing that the abuse is your fault. Remember that you are not to blame for being harmed and abused.
+                                        You were never the cause of your partner’s abusive behavior, and, like everyone else, you deserve safety,
+                                        protection, and happiness. You deserve to be treated with respect, care, and love. Although you may feel
+                                        isolated, abandoned, and horrified, know that you are not alone. There are people who can help you heal and
+                                        feel safe again.
+
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-5">
+                            <div class="right-cover">
+                                <h3>Steps to Leave an Abusive Relationship</h3>
+                                <img src="https://www.aljazeera.com/wp-content/uploads/2020/10/pro-and-con-list.jpg?w=770&resize=770%2C513&quality=80" class="menu-img img-fluid" alt="brekfast-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="dinner" class="tab-pane fade">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <h4 class="list-group-item-heading">Hotlines<span class="badge pull-right"></span></h4>
+                                    <p class="list-group-item-text">Reach out to your local domestic violence hotline, and get connected to more information about domestic violence as well as gaining assistance in creating a safety plan</p>
+                                </li>
+                                <li class="list-group-item">
+                                    <h4 class="list-group-item-heading">Support groups and organizations<span class="badge pull-right"></span></h4>
+                                    <p class="list-group-item-text">
+                                        Getting involved in support groups, joining organizations, and connecting with other survivors can offer
+                                        you comfort and support during this time. Many people who find and become involved in One Love because of an unhealthy or abusive relationship
+                                        report a sense of relief in seeing their situations depicted in our content, strength in educating others, or support in joining our community of volunteers, student leaders, educators, advocates, and staff. Legal advocates can also provide education and support in terms of restraining orders and possibly provide legal referrals.
+                                    </p>
+                                </li>
+                                <li class="list-group-item">
+                                    <h4 class="list-group-item-heading">Therapy<span class="badge pull-right"></span></h4>
+                                    <p class="list-group-item-text">
+                                        Keep in mind that couples counseling doesn’t work in abusive relationships.
+                                        But individual therapy can help you strengthen your relationships, set boundaries, and better understand
+                                        the dynamics of domestic violence, says Black. A mental health professional can also teach you coping
+                                        strategies and tips for building healthier relationships. “It’s important to educate yourself about the
+                                        common patterns of abuse and the types of abusive behaviors you may have experienced in order to break
+                                        the cycle of violence,” she says. “Knowledge is power.”
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-5">
+                            <div class="right-cover">
+                                <h3>Where to find support</h3>
+                                <img src="https://www.endingtheabuse.com/wp-content/uploads/help_support_signs.jpg" class="menu-img img-fluid" alt="brekfast-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="dessert" class="tab-pane fade">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <h4 class="list-group-item-heading">Create a support system<span class="badge pull-right"></span></h4>
+                                    <p class="list-group-item-text">
+                                        Your abuser may have isolated you from friends, family, and other sources of support.
+                                        While you can’t change what happened in the past, you can work to rebuild relationships or make new connections.
+                                        Not only can a strong support system reduce the risk of depression, but positive relationships with others can help you to learn to trust again.
+                                    </p>
+                                </li>
+                                <li class="list-group-item">
+                                    <h4 class="list-group-item-heading">Remember that it’s not your fault<span class="badge pull-right"></span></h4>
+                                    <p class="list-group-item-text">
+                                        While it’s normal to blame yourself for the emotional abuse that you’ve experienced, you should remember
+                                        that none of it is your fault. Emotional abusers might try to make you believe that you deserve mistreatment, but that’s never true.
+                                        Your emotional abuser is the one responsible for their actions, not you
+                                    </p>
+                                </li>
+                                <li class="list-group-item">
+                                    <h4 class="list-group-item-heading">Document your feelings<span class="badge pull-right"></span></h4>
+                                    <p class="list-group-item-text">
+                                        People often struggle with feelings of self-doubt while healing after emotional abuse.
+                                        As time goes on, you may start to question if the abuse you experienced was actually that bad. Keeping a journal
+                                        can help you track your feelings and experiences, which might allow you to learn to trust yourself (and others) again.
+                                    </p>
+                                </li>
+                                <li class="list-group-item">
+                                    <h4 class="list-group-item-heading">Focus on your own needs<span class="badge pull-right"></span></h4>
+                                    <p class="list-group-item-text">
+                                        In your toxic relationship, you may have learned to neglect your own wants and needs so you
+                                        could focus on what your emotional abuser wanted. While there’s nothing wrong with trying to make other people happy, be
+                                        aware if you have developed a pattern of always putting someone else first. Take the time to think about your desires and
+                                        goals and work to get back in touch with your emotions.
+                                    </p>
+                                </li>
+                                <li class="list-group-item">
+                                    <h4 class="list-group-item-heading">Start therapy<span class="badge pull-right"></span></h4>
+                                    <p class="list-group-item-text">
+                                        Healing after emotional abuse can be a long and difficult process.
+                                        When you seek professional help, through online therapy, you’ll have access to the support that you need.
+                                        Therapy can help you process your emotional trauma, develop healthy coping strategies, and stay strong as you begin to rebuild your life.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-5">
+                            <div class="right-cover">
+                                <h3>Tips for Healing from Abuse</h3>
+                                <img src="https://www.nami.org/NAMI/media/NAMI-Media/BlogImageArchive/2021/healing-blog_1.jpg" class="menu-img img-fluid" alt="brekfast-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="salads" class="tab-pane fade">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <h4 class="list-group-item-heading">Calmly start a conversation on a positive note<span class="badge pull-right"></span></h4>
+                                    <p class="list-group-item-text">
+                                        Make time to have a quiet conversation with your pal. Begin by offering your buddy encouraging words and compliments,
+                                        such as, Once your friend feels at ease, you can start speaking calmly about your worries for them. You will need to be a reliable support who they
+                                        can openly and peacefully communicate with because it's possible that they feel like their life is already chaotic enough.
+                                        This will enable you to best assist them. They are probably going to keep asking for help if you don't freak out and try to make them feel secure.
+                                        You don't want to concern your friend, start a fight with them, or assign blame to them.
+                                    </p>
+                                </li>
+                                <li class="list-group-item">
+                                    <h4 class="list-group-item-heading">Be supportive<span class="badge pull-right"></span></h4>
+                                    <p class="list-group-item-text">
+                                        Listen to your friend and let them open up about the situation on their own terms. Don’t be forceful with the conversation.
+                                        It may be very hard for your friend to talk about their relationship, but remind them that they are not alone and that you want to help.
+                                    </p>
+                                </li>
+                                <li class="list-group-item">
+                                    <h4 class="list-group-item-heading">Focus on the unhealthy behaviors<span class="badge pull-right"></span></h4>
+                                    <p class="list-group-item-text">
+                                        The dialogue should centre on the harmful patterns of behaviour in the partnership in order to give your friend a secure
+                                        setting in which to discuss them. Sometimes our first reaction is to immediately classify the relationship as "abusive" to emphasise how serious the
+                                        situation is. You can also be honest about how you would feel if someone did something to you and gently point out that some behaviours look unhealthy.
+                                        One of the first stages is to explain to your friend what appropriate and inappropriate behaviour in a relationship look like. As you recognise their
+                                        sentiments as being valid, you might assist them in realising for themselves that something is odd about the connection.
+                                    </p>
+                                </li>
+                                <li class="list-group-item">
+                                    <h4 class="list-group-item-heading">Allow your friend to make their own decision<span class="badge pull-right"></span></h4>
+                                    <p class="list-group-item-text">
+                                        If your friend is in an abusive relationship, the last thing you want to do is tell them to “just break up!”
+                                        Relationship abuse is very complex, and your friend may be experiencing some form of trauma bonding—or loyalty to the person who is abusing them.
+                                        Also, your friend is already dealing with a controlling and manipulative partner and the last thing that they need is for you to mimic those behaviors
+                                        by forcefully telling them what to do.
+                                    </p>
+                                </li>
+                                <li class="list-group-item">
+                                    <h4 class="list-group-item-heading">Offer solutions to your friend<span class="badge pull-right"></span></h4>
+                                    <p class="list-group-item-text">
+                                        The best way for you to help your friend is to offer them options. Don’t push any one of them in particular,
+                                        but instead let your friend know that you will support them no matter what they decide to do. Reassure your friend that they are the expert in their own
+                                        life and make them feel as though they are in control of the situation.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-5">
+                            <div class="right-cover">
+                                <h3>How To Help A Friend Who May Be In An Abusive Relationship</h3>
+                                <img src="https://respectme.org.au/app/uploads/2014/07/My-friend-has-an-abusive-partner-and-won%E2%80%99t-end-relationship-750x450.jpg" class="menu-img img-fluid" alt="brekfast-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="drinks" class="tab-pane fade">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <h4 class="list-group-item-heading">Physical abuse<span class="badge pull-right"></span></h4>
+                                    <p class="list-group-item-text">Physical abuse is one of the most easily identified types of abuse. It involves the use of physical violence, or threats of it, to maintain power over an individual. Because of this, survivors are afraid and uncertain when more abuse will occur. </p>
+                                </li>
+                                <li class="list-group-item">
+                                    <h4 class="list-group-item-heading">Emotional abuse<span class="badge pull-right"></span></h4>
+                                    <p class="list-group-item-text">
+                                        Emotional abuse includes non-physical behaviors that are meant to control, isolate, or frighten someone.
+                                    </p>
+                                </li>
+                                <li class="list-group-item">
+                                    <h4 class="list-group-item-heading">Sexual abuse<span class="badge pull-right"></span></h4>
+                                    <p class="list-group-item-text">
+                                        Sexual abuse is when a partner controls the physical and sexual intimacy in a relationship.
+                                    </p>
+                                </li>
+                                <li class="list-group-item">
+                                    <h4 class="list-group-item-heading">Financial abuse<span class="badge pull-right"></span></h4>
+                                    <p class="list-group-item-text">Financial or economic abuse occurs when an abusive partner extends their power and control into your financial situation.</p>
+                                </li>
+                                <li class="list-group-item">
+                                    <h4 class="list-group-item-heading">Digital abuse<span class="badge pull-right"></span></h4>
+                                    <p class="list-group-item-text">
+                                        Digital abuse is the use of technology and the Internet to bully, harass, stalk, intimidate, or control a partner.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-5">
+                            <div class="right-cover">
+                                <h3>Types of Abuse</h3>
+                                <img src="https://i0.wp.com/www.childhelphotline.org/wp-content/uploads/2023/07/TYPES-OF-ABUSE-Banner.png?w=1263&ssl=1" class="menu-img img-fluid" alt="brekfast-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-service bg-section" id="service">
+    <div class="container-fluid text-center">
+        <h1 class="container-h1">Hotlines offering assistance to victims of violence</h1>
+
+        <div class="row service-round-3 slideanim">
+            <div class="col-sm-4 text-center round">
+                <div class="service-round b-party">
+                    <i class="fa fa-4x fa fa-shield  sr-icons"></i>
+                </div>
+                <h4>South African Police Service</h4>
+                <p>Tel: 10111</p>
+            </div>
+            <div class="col-sm-4 text-center round">
+                <div class="service-round wedding">
+                    <i class="fa fa-4x fa fa-shield  sr-icons"></i>
+                </div>
+                <h4>Childline South Africa</h4>
+                <p>Tel: 116</p>
+            </div>
+            <div class="col-sm-4 text-center round">
+                <div class="service-round wedding">
+                    <i class="fa fa-4x fa fa-shield  sr-icons"></i>
+                </div>
+                <h4>Families South Africa (Famsa)</h4>
+                <p>Tel: 011 975 7106/7</p>
+            </div>
+            <div class="col-sm-4 text-center round">
+                <div class="service-round wedding">
+                    <i class="fa fa-4x fa fa-shield  sr-icons"></i>
+                </div>
+                <h4>Tears Foundation</h4>
+                <p>Tel: 010 590 5920</p>
+            </div>
+            <div class="col-sm-4 text-center round">
+                <div class="service-round wedding">
+                    <i class="fa fa-4x fa fa-shield  sr-icons"></i>
+                </div>
+                <h4>The Trauma Centre</h4>
+                <p>Tel: 021 465 7373</p>
+            </div>
+            <div class="col-sm-4 text-center round">
+                <div class="service-round b-dinner">
+                    <i class="fa fa-4x fa fa-shield  sr-icons"></i>
+                </div>
+                <h4>South African Federation For Mental Health Helpline </h4>
+                <p>Tel: 011 781 1852</p>
+            </div>
+        </div>
+        <a href="https://genderjustice.org.za/helpline-numbers/" class="btn">View More</a><br />
+    </div>
+</section>
+
+
+
+
+<section class="bg-about bg-section" id="about">
+    <div class="container-fluid">
+        <h1 class="container-h1">How to know</h1>
+        <div class="row">
+
+
+            <div class="col-sm-15">
+                <div class="row ">
+                    <div class="restaurant-history slideanim text-center">
+                        <h3 class="section-heading">How to know if you are in an abusive relationship</h3>
+
+                        <p class="about-history first">
+                            An abusive relationship is any relationship that involves physical, sexual, or emotional abuse and control.
+                            So, abusive relationships are not just limited to physical abuse. Any relationship that makes you feel insecure, unhappy,
+                            frightened, and drained is a toxic, abusive relationship.<br /><br />
+
+                            A toxic bond in an abusive relationship can cause you to doubt your reality and sanity and lose a sense of self-respect.
+                            In addition, a relationship with an abusive partner can isolate you, cutting you off from your support circles and generating
+                            significant emotional distress. At some point, the abusive relationship may pose an imminent threat to your health and life.
+
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-staff" id="staff">
+    <div class="container-fluid">
+        <h1>Donations</h1>
+        <hr class="hr-h3s">
+        <div class="row text-center slideanim thumbnail-row">
+            <div class="col-sm-3">
+                <div class="staff">
+                    <img src="~/css/i1.png" class="" alt="chef-img" style="width:170px; height: 170px">
+                    <h5 class="">The Warrior Project</h5>
+                    <a href="https://thewarriorproject.org.za/helplines/" class="btn">View</a>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="staff">
+                    <img src="~/css/i2.png" class="" alt="chef-img" style="width:170px; height: 170px">
+                    <h5 class="">Hurting and helpless </h5>
+                    <a href="https://tafta.org.za/hurting-and-helpless-help-stop-elder-abuse/?gclid=Cj0KCQjwmICoBhDxARIsABXkXlKDKsNNQa8u8Yze0XWuYu1wfLsQ7L_1Ioh6s3O_4ixFUvvbhVjlEP4aArKLEALw_wcB" class="btn">View</a>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="staff">
+                    <img src="~/css/i3.png" class="" alt="chef-img" style="width:170px; height: 170px">
+                    <h5 class="">Thuthuzela Care</h5>
+                    <a href="http://www.soulcity.org.za/" class="btn">View</a>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="staff">
+                    <img src="~/css/i4.png" class="" alt="chef-img" style="width:170px; height: 170px">
+                    <h5 class="">Child Welfare</h5>
+                    <a href="http://childwelfaresa.org.za/" class="btn">View</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-testimonials" id="testimonials">
+    <div class="container-fluid">
+        <h1 class="">Daily quotes</h1>
+        <hr class="hr-testimonials">
+        <div class="row slideanim">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ul>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <h4>"Overcoming abuse doesn't just happen, it takes positive steps every day. Let today be the day you start to move forward."</h4>
+                        <br />
+                    </div>
+
+                    <div class="carousel-item">
+                        <h4>“It hurts the most when the person that made you feel so special yesterday makes you feel so unwanted today.”</h4>
+                        <br />
+                    </div>
+
+                    <div class="carousel-item">
+                        <h4>"Controllers, abusers and manipulative people don't question themselves. They don't ask themselves if the problem is them. They always say the problem is someone else."</h4>
+                        <br />
+                    </div>
+                    <div class="carousel-item">
+                        <h4>“The only people who get upset about you setting boundaries are the ones who were benefiting from you having none.”</h4>
+                        <br />
+                    </div>
+                    <div class="carousel-item">
+                        <h4>“Refuse to inherit dysfunction. Learn new ways of living instead of repeating what you lived through.”</h4>
+                        <br />
+                    </div>
+                    <div class="carousel-item">
+                        <h4>If you walked away from a toxic, negative, abusive, one-sided, dead-end low vibrational relationship or friendship--you won."</h4>
+                        <br />
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+    </div>
+
+
+</section>
+<section id="gallery" class="bg-gallery no-padding">
+    <div class="container-fluid">
+        <h1>Their stories</h1>
+        <hr class="hr-h3s">
+        <div class="row no-gutter gallery slideanim">
+
+            <div class="col-sm-4 portfolio-item">
+                <a href="#" class="portfolio-link">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <h3 style="color:white;">Mim’s story</h3>
+                            <p>
+                                <center>
+                                    Mim experienced family violence in her childhood and teen years as well as an adult, but she’s learning to trust people and to love again. Mim stepped into herself and started doing what she needed.
+                                </center>
+                            </p>
+                        </div>
+                    </div>
+                    <img src="~/css/img1.png" class="img-fluid " alt="App">
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="#" class="portfolio-link">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <h3 style="color:white;">Rebecca’s story</h3>
+                            <p>
+                                <center>
+                                    Rebecca’s partner isolated her from family and friends, threatened her with weapons and continued to stalk her after the relationship ended. Rebecca decided to channel her energy in a positive way and advocate for change.
+                                </center>
+                            </p>
+                        </div>
+                    </div>
+                    <img src="~/css/img4.png" class="img-fluid " alt="App">
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="#" class="portfolio-link">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <h3 style="color:white;">Jane’s story</h3>
+                            <p>
+                                <center>
+                                    Jane is a Yorta Yorta woman who experienced family violence in her 20s, too scared to tell others as she was afraid they wouldn’t believe her. Now Jane loves her life and feels she can depend on herself.
+                                </center>
+                            </p>
+                        </div>
+                    </div>
+                    <img src="~/css/img1.png" class="img-fluid " alt="App">
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="#" class="portfolio-link">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <h3 style="color:white;">Alex’s story</h3>
+                            <p>
+                                <center>
+                                    Alex’s partner would abuse him for hours but always apologise afterwards. Recognising that the abuse was not his fault and that she would not change, Alex made the decision to leave.
+                                </center>
+                            </p>
+                        </div>
+                    </div>
+                    <img src="~/css/img4.png" class="img-fluid " alt="App">
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="#" class="portfolio-link">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <h3 style="color:white;">Jade’s story</h3>
+                            <p>
+                                <center>
+                                    Jade’s father controlled her and physically abused her until she found the strength to leave with support from friends and colleagues.
+                                </center>
+                            </p>
+                        </div>
+                    </div>
+                    <img src="~/css/img1.png" class="img-fluid " alt="App">
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="#" class="portfolio-link">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <h3 style="color:white;">Bec’s story</h3>
+                            <p>
+                                <center>
+                                    Bec’s partner isolated her until she felt worthless and alone. After enduring years of emotional and physical abuse, Bec made the courageous decision to reach out for support and leave the relationship for good.
+                                </center>
+                            </p>
+                        </div>
+                    </div>
+                    <img src="~/css/img4.png" class="img-fluid " alt="App">
+                </a>
+            </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <div class="row more-img">
+        </div>
+
+    </div>
+</section>
